@@ -9,6 +9,11 @@ Each folder contains its own `README.md` that gives additional information. In s
 * `Trailer:` The Simulink model for the full articulated road vehicle.
 * `Truck:` The Simulink model for just the truck.
 
+The `.zip` files at the repo top level contain _IPG TruckMaker_ projects:
+* `Truck.zip:` Simulink implementation, scenario, truck, tires, etc., for the truck-only estimator.
+* `TruckUpdateStrategy.zip:` Same as the previous one, but with the Gramian-based update strategy.
+* `Trailer.zip:` Project files for the full coupled truck and trailer system.
+
 ## Thesis Information
 
 The work was carried out at _Mechanics and Maritime Sciences_ (MMS) at Chalmers University of Technology under the supervision of Axel Ceder and Mats Jonasson. The report detailing this work is published by Chalmers at the [Chalmers Open Digital Repository](https://odr.chalmers.se/home).
